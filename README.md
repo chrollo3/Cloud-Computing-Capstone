@@ -8,8 +8,8 @@ Repository ini berisikan segala hal tentang Backend yang dipakai di Aplikasi Eco
 | Nama | Bangkit ID |
 |----------|----------|
 | Misbachul Huda  |  C119B4KY2510  |
-|                 |                |
-|                 |                |
+| Dwi Wulandari   |  C006B4KX1202  | 
+| Alfaris Virabwana | C004B4KY0353 | 
 
 ## Routes 
 Area ini digunakan untuk development di Postman. 
