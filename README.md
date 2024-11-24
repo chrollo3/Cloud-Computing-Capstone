@@ -1,11 +1,10 @@
-# EcoSort - API Server Side 
+# EcoSort - Backend API
 # Cloud Computing Learning Path
 
 
-Repository ini berisikan serba serbi Backend yang dipakai di Aplikasi EcoSort beserta informasi resource, teknologi dan tutorial pemakaian API aplikasi EcoSort.
-Repository ada di branch Master. Main hanya sebagai home untuk Readme.md.
+Repository ini berisikan segala hal tentang Backend yang dipakai di Aplikasi EcoSort beserta informasi resource, teknologi dan tutorial pemakaian API aplikasi EcoSort.
 
-## Cloud Computing Division
+## Cloud Computing Member
 | Nama | Bangkit ID |
 |----------|----------|
 | Misbachul Huda  |  C119B4KY2510  |
