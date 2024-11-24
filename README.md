@@ -2,7 +2,7 @@
 # Cloud Computing Learning Path
 
 
-Repository ini berisikan serba serbi Backend yang dipakai di Aplikasi HICARE beserta informasi resource, teknologi dan tutorial pemakaian API aplikasi EcoSort.
+Repository ini berisikan serba serbi Backend yang dipakai di Aplikasi EcoSort beserta informasi resource, teknologi dan tutorial pemakaian API aplikasi EcoSort.
 Repository ada di branch Master. Main hanya sebagai home untuk Readme.md.
 
 ## Cloud Computing Division
