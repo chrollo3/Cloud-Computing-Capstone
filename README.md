@@ -31,7 +31,6 @@ Saat pengembangan aplikasi ini, kami memakai spesifikasi teknologi sebagai berik
 |Cloud Storage | Layanan Upload Model Machine Learning|
 |Firestore|Penyimpanan Data Prediksi Machine Learning|
 |Docker|Perantara Deployment ke Cloud Run ( Google Cloud Platform) |
-|ExpressJS|Code Framework yang digunakan|
 
 ## Cara Pemakaian
 1. Pastikan sudah menginstall Code Editor dan Nodejs (NPM)
