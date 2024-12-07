@@ -7,7 +7,7 @@ async function postPredictHandler(request, h) {
     const { image } = request.payload;
     const { model } = request.server.app;
 
-    const { label, suggestion } = await predictClassification(model, image);
+    const { confidenceScore, label, suggestion } = await predictClassification(model, image);
 
     const id = crypto.randomUUID();
     const createdAt = new Date().toISOString();
@@ -16,6 +16,7 @@ async function postPredictHandler(request, h) {
         id: id,
         result: label,
         suggestion: suggestion,
+        confidenceScore: confidenceScore,
         createdAt: createdAt,
     };
 
@@ -42,4 +43,3 @@ async function getPredictHistoriesHandler(request, h) {
 }
 
 module.exports = { postPredictHandler, getPredictHistoriesHandler };
-
