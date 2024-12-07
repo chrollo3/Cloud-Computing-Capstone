@@ -9,16 +9,25 @@ async function predictClassification(model, image) {
             .expandDims()
             .toFloat();
 
+            const classes = ['Organik', 'Anorganik'];
+
         const prediction = model.predict(tensor);
         const score = await prediction.data();
         const confidenceScore = Math.max(...score) * 100;
 
-        const label = confidenceScore >= 0.5 ? "Organic" : "Non-Organic";
+        const classResult = tf.argMax(prediction, 1).dataSync()[0];
+        const label = classes[classResult];
+        
+        let suggestion;
+        if (label === 'Organik') {
+            suggestion = "Segera buah sampah organik";
+          }
+      
+          if (label === 'Anorganik') {
+            suggestion = "Segera buang sampah anorganik";
+          }
 
-        const suggestion =
-            label === "Organic" ? "Buanglah sampah organik" : "Buanglah sampah non organik";
-
-        return { label, suggestion };
+        return { confidenceScore, label, suggestion };
     } catch (error) {
         throw new InputError(`Terjadi kesalahan input: ${error.message}`);
     }
