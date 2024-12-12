@@ -11,15 +11,6 @@ Repository ini berisikan segala hal tentang Backend yang dipakai di Aplikasi Eco
 | Dwi Wulandari   |  C006B4KX1202  | 
 | Alfaris Virabwana | C004B4KY0353 | 
 
-## Routes 
-Area ini digunakan untuk development di Postman. 
-
-| Method | Endpoint/Path | Keterangan |
-|--------|---------------|--------------|
-|        |               |              |
-|        |               |              |
-|        |               |              |
-|        |               |              |
 
 ## Code Technology
 Saat pengembangan aplikasi ini, kami memakai spesifikasi teknologi sebagai berikut
